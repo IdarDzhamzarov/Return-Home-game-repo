@@ -13,6 +13,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "Flashlight",
+                    "type": "Value",
+                    "id": "0f0d025f-411e-402e-ad68-8cc57a62e57d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -125,6 +134,17 @@
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "c4a277b7-2860-446d-aa09-e13659563489",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Flashlight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
