@@ -16,12 +16,21 @@
                 },
                 {
                     "name": "Flashlight",
-                    "type": "Value",
+                    "type": "Button",
                     "id": "0f0d025f-411e-402e-ad68-8cc57a62e57d",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Interact",
+                    "type": "Button",
+                    "id": "a8512485-3bb3-404b-9446-91df0e5b2366",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -138,11 +147,22 @@
                 {
                     "name": "",
                     "id": "c4a277b7-2860-446d-aa09-e13659563489",
-                    "path": "",
+                    "path": "<Keyboard>/f",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Flashlight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5c60e86d-4821-4fd3-869e-bdb2f3654ceb",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
