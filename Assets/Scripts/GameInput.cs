@@ -1,7 +1,6 @@
 using System;
 using UnityEngine;
 
-
 public class GameInput : MonoBehaviour
 {
     public event EventHandler OnInteractAction;
