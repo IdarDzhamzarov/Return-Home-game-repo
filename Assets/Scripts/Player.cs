@@ -8,7 +8,7 @@ public class Player : MonoBehaviour
     public event EventHandler<OnSelectedCounterChangedEventArgs> OnSelectedCounterChanged;
     public class OnSelectedCounterChangedEventArgs: EventArgs
     {
-        public ClearCounter selectedCounter;
+        public SpaceCapsule selectedSpaceCapsule;
     }
     
     [SerializeField] private float moveSpeed = 5f;
@@ -18,7 +18,7 @@ public class Player : MonoBehaviour
 
     private bool isWalking;
     private Vector3 lastInteraction;
-    private ClearCounter selectedCounter;
+    private SpaceCapsule selectedSpaceCapsule;
 
     private void Awake()
     {
@@ -38,9 +38,9 @@ public class Player : MonoBehaviour
 
     private void GameInput_OnInteractAction(object sender, EventArgs e)
     {
-        if(selectedCounter != null)
+        if(selectedSpaceCapsule != null)
         {
-            selectedCounter.Interact();
+            selectedSpaceCapsule.Interact();
         }
     }
 
@@ -69,22 +69,22 @@ public class Player : MonoBehaviour
         float interactDistance = 2f;
         if (Physics.Raycast(transform.position, lastInteraction, out RaycastHit raycastHit, interactDistance, countersLayerMask))
         {
-            if (raycastHit.transform.TryGetComponent(out ClearCounter clearCounter))
+            if (raycastHit.transform.TryGetComponent(out SpaceCapsule spaceCapsule))
             {
-                if(clearCounter != selectedCounter)
+                if(spaceCapsule != selectedSpaceCapsule)
                 {
-                    SetSelectedCounter(clearCounter);
+                    SetSelectedSpaceCapsule(spaceCapsule);
                 }
-                 
+               
             }
             else
             {
-                SetSelectedCounter(null);
+                SetSelectedSpaceCapsule(null);
             }            
         }
         else
         {
-            SetSelectedCounter(null);
+            SetSelectedSpaceCapsule(null);
         }
     }
 
@@ -101,6 +101,7 @@ public class Player : MonoBehaviour
         if (!CanMove(moveDir, moveDistance, playerRadius, playerHeight))
         {
             Vector3 moveDirX = new Vector3(moveDir.x, 0f, 0f).normalized;
+
             if (CanMove(moveDirX, moveDistance, playerRadius, playerHeight))
             {
                 moveDir = moveDirX;
@@ -131,13 +132,13 @@ public class Player : MonoBehaviour
         return isWalking;
     }
 
-    private void SetSelectedCounter(ClearCounter selectedCounter)
+    private void SetSelectedSpaceCapsule(SpaceCapsule selectedSpaceCapsule)
     {
-        this.selectedCounter = selectedCounter;
+        this.selectedSpaceCapsule = selectedSpaceCapsule;
 
         OnSelectedCounterChanged?.Invoke(this, new OnSelectedCounterChangedEventArgs
         {
-            selectedCounter = selectedCounter
+            selectedSpaceCapsule = selectedSpaceCapsule
         });
     }
 
