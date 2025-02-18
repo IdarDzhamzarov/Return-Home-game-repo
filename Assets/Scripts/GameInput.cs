@@ -12,6 +12,7 @@ public class GameInput : MonoBehaviour
     private void Awake()
     {
         playerInputActions = new PlayerInputActions();
+
         playerInputActions.Player.Enable();
         playerInputActions.UI.Enable();
 

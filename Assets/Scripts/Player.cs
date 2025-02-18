@@ -38,9 +38,18 @@ public class Player : MonoBehaviour
 
     private void GameInput_OnInteractAction(object sender, EventArgs e)
     {
-        if(selectedSpaceCapsule != null)
+        if(selectedSpaceCapsule == null)
         {
-            selectedSpaceCapsule.Interact();
+            Debug.Log("Nothing to interact");
+        }
+
+        if (selectedSpaceCapsule != null && selectedSpaceCapsule.isPlayerInTheSpaceCapsule == false)
+        {
+            selectedSpaceCapsule.EnterSpaceCapsule();
+        }
+        else
+        {
+            selectedSpaceCapsule.ExitSpaceCapsule();
         }
     }
 

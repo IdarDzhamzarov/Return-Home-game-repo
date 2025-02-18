@@ -3,7 +3,7 @@ using Unity.Cinemachine;
 
 public class CameraSystem : MonoBehaviour
 {
-    [SerializeField] private CinemachineCamera cinemachineCamera;
+    public CinemachineCamera cinemachineCamera;
 
     [SerializeField] private float targetFieldOfView = 20f;
     [SerializeField] private float fieldOfViewMax = 30f;
@@ -13,7 +13,7 @@ public class CameraSystem : MonoBehaviour
     {
         HandleCameraZoom();
     }
-    private void HandleCameraZoom()
+    public void HandleCameraZoom()
     {
         if (Input.mouseScrollDelta.y > 0)
         {

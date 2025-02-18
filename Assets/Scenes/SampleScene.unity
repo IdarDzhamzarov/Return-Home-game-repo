@@ -2475,6 +2475,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1807883540}
   m_CullTransparentMesh: 1
+--- !u!4 &1848282736 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4199172511284954358, guid: 21246e97b2a0e384dab5118dba54511e, type: 3}
+  m_PrefabInstance: {fileID: 842161606107018722}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1888068801
 GameObject:
   m_ObjectHideFlags: 0
@@ -2988,6 +2993,18 @@ PrefabInstance:
       propertyPath: outlineWidth
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 2366510408408659342, guid: 21246e97b2a0e384dab5118dba54511e, type: 3}
+      propertyPath: camera
+      value: 
+      objectReference: {fileID: 1978209784}
+    - target: {fileID: 2366510408408659342, guid: 21246e97b2a0e384dab5118dba54511e, type: 3}
+      propertyPath: spaceCapsule
+      value: 
+      objectReference: {fileID: 1848282736}
+    - target: {fileID: 2366510408408659342, guid: 21246e97b2a0e384dab5118dba54511e, type: 3}
+      propertyPath: playerWhoEnteredTheSpaceCapsule
+      value: 
+      objectReference: {fileID: 834253696}
     - target: {fileID: 3304544219023328976, guid: 21246e97b2a0e384dab5118dba54511e, type: 3}
       propertyPath: clearCounter
       value: 
