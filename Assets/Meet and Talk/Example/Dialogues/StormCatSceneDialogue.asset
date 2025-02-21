@@ -1,0 +1,342 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1946feaec865d344dabf0419b1c94973, type: 3}
+  m_Name: StormCatSceneDialogue
+  m_EditorClassIdentifier: 
+  NodeLinkDatas:
+  - BaseNodeGuid: 5f26ad65-61df-4b7b-9d49-6b73a862c83d
+    TargetNodeGuid: 0902137c-4e0e-43a3-99b4-9800f1066d44
+  - BaseNodeGuid: 0902137c-4e0e-43a3-99b4-9800f1066d44
+    TargetNodeGuid: 10ef8418-1e9b-47fc-bf9d-0e70497f8d77
+  - BaseNodeGuid: 87c3c1c7-a719-41d3-b24f-55b88aa3965b
+    TargetNodeGuid: 7923c7f5-e102-4403-ba17-ff9077003bbe
+  - BaseNodeGuid: 10ef8418-1e9b-47fc-bf9d-0e70497f8d77
+    TargetNodeGuid: 87c3c1c7-a719-41d3-b24f-55b88aa3965b
+  - BaseNodeGuid: 7923c7f5-e102-4403-ba17-ff9077003bbe
+    TargetNodeGuid: e82182be-b8cf-4176-b100-73ccb687e114
+  - BaseNodeGuid: e82182be-b8cf-4176-b100-73ccb687e114
+    TargetNodeGuid: e84551c9-a4af-408f-a890-6b5a2edbf78f
+  - BaseNodeGuid: e84551c9-a4af-408f-a890-6b5a2edbf78f
+    TargetNodeGuid: e535b3c3-f0ac-48ef-8362-2aef36034aa6
+  - BaseNodeGuid: e535b3c3-f0ac-48ef-8362-2aef36034aa6
+    TargetNodeGuid: 235843a5-37bb-44e6-9685-cb07b81841e6
+  - BaseNodeGuid: 235843a5-37bb-44e6-9685-cb07b81841e6
+    TargetNodeGuid: 22c63528-561c-42db-89ba-bc85782bd3bd
+  - BaseNodeGuid: 22c63528-561c-42db-89ba-bc85782bd3bd
+    TargetNodeGuid: 7cc7509b-befd-43a1-b312-17846650ea52
+  - BaseNodeGuid: 7cc7509b-befd-43a1-b312-17846650ea52
+    TargetNodeGuid: f0a2a77b-919b-4488-98aa-8babda06ffed
+  - BaseNodeGuid: f0a2a77b-919b-4488-98aa-8babda06ffed
+    TargetNodeGuid: 26a45f88-9218-471d-b553-2463f14915cb
+  - BaseNodeGuid: 26a45f88-9218-471d-b553-2463f14915cb
+    TargetNodeGuid: afb449ec-1dc9-445e-b17b-55df2c85443a
+  - BaseNodeGuid: afb449ec-1dc9-445e-b17b-55df2c85443a
+    TargetNodeGuid: 9a690878-c470-42ee-aa30-5eb72c84bcd4
+  - BaseNodeGuid: 9a690878-c470-42ee-aa30-5eb72c84bcd4
+    TargetNodeGuid: a5b2507f-0adb-4f81-8c05-84646039f22c
+  - BaseNodeGuid: a5b2507f-0adb-4f81-8c05-84646039f22c
+    TargetNodeGuid: 87592337-e438-4abd-b34e-4a56e0015733
+  - BaseNodeGuid: 87592337-e438-4abd-b34e-4a56e0015733
+    TargetNodeGuid: 789b2053-bab4-4e8e-9278-cbba6536737b
+  DialogueChoiceNodeDatas: []
+  DialogueNodeDatas:
+  - NodeGuid: 0902137c-4e0e-43a3-99b4-9800f1066d44
+    Position: {x: -249, y: 0}
+    DialogueNodePorts: []
+    AudioClips:
+    - languageEnum: 0
+      LanguageGenericType: {fileID: 0}
+    - languageEnum: 1
+      LanguageGenericType: {fileID: 0}
+    Character: {fileID: 11400000, guid: a786ffa18a9ec9c48a946373063d04eb, type: 2}
+    AvatarPos: 0
+    AvatarType: 0
+    TextType:
+    - languageEnum: 0
+      LanguageGenericType: The surface is close... I see the terrain
+    - languageEnum: 1
+      LanguageGenericType: 
+    Duration: 2
+  - NodeGuid: 87c3c1c7-a719-41d3-b24f-55b88aa3965b
+    Position: {x: 334, y: 0}
+    DialogueNodePorts: []
+    AudioClips:
+    - languageEnum: 0
+      LanguageGenericType: {fileID: 0}
+    - languageEnum: 1
+      LanguageGenericType: {fileID: 0}
+    Character: {fileID: 11400000, guid: a786ffa18a9ec9c48a946373063d04eb, type: 2}
+    AvatarPos: 0
+    AvatarType: 0
+    TextType:
+    - languageEnum: 0
+      LanguageGenericType: Captain, I'm landing. Hold your fists for me
+    - languageEnum: 1
+      LanguageGenericType: 
+    Duration: 2
+  - NodeGuid: 10ef8418-1e9b-47fc-bf9d-0e70497f8d77
+    Position: {x: 47, y: 0}
+    DialogueNodePorts: []
+    AudioClips:
+    - languageEnum: 0
+      LanguageGenericType: {fileID: 0}
+    - languageEnum: 1
+      LanguageGenericType: {fileID: 0}
+    Character: {fileID: 11400000, guid: a786ffa18a9ec9c48a946373063d04eb, type: 2}
+    AvatarPos: 0
+    AvatarType: 0
+    TextType:
+    - languageEnum: 0
+      LanguageGenericType: It seems like a good place to land
+    - languageEnum: 1
+      LanguageGenericType: 
+    Duration: 2
+  - NodeGuid: 7923c7f5-e102-4403-ba17-ff9077003bbe
+    Position: {x: 600, y: 0}
+    DialogueNodePorts: []
+    AudioClips:
+    - languageEnum: 0
+      LanguageGenericType: {fileID: 0}
+    - languageEnum: 1
+      LanguageGenericType: {fileID: 0}
+    Character: {fileID: 11400000, guid: a786ffa18a9ec9c48a946373063d04eb, type: 2}
+    AvatarPos: 0
+    AvatarType: 0
+    TextType:
+    - languageEnum: 0
+      LanguageGenericType: I'm on the surface. Landing... tough, but successful
+    - languageEnum: 1
+      LanguageGenericType: 
+    Duration: 3
+  - NodeGuid: e82182be-b8cf-4176-b100-73ccb687e114
+    Position: {x: 851, y: 0}
+    DialogueNodePorts: []
+    AudioClips:
+    - languageEnum: 0
+      LanguageGenericType: {fileID: 0}
+    - languageEnum: 1
+      LanguageGenericType: {fileID: 0}
+    Character: {fileID: 11400000, guid: a786ffa18a9ec9c48a946373063d04eb, type: 2}
+    AvatarPos: 0
+    AvatarType: 0
+    TextType:
+    - languageEnum: 0
+      LanguageGenericType: ' All systems are fine, except for a couple minor glitches'
+    - languageEnum: 1
+      LanguageGenericType: 
+    Duration: 3
+  - NodeGuid: e84551c9-a4af-408f-a890-6b5a2edbf78f
+    Position: {x: 1112, y: 0}
+    DialogueNodePorts: []
+    AudioClips:
+    - languageEnum: 0
+      LanguageGenericType: {fileID: 0}
+    - languageEnum: 1
+      LanguageGenericType: {fileID: 0}
+    Character: {fileID: 11400000, guid: a786ffa18a9ec9c48a946373063d04eb, type: 2}
+    AvatarPos: 0
+    AvatarType: 0
+    TextType:
+    - languageEnum: 0
+      LanguageGenericType: Captain, I'm on Kronos-9. I repeat, I have landed
+    - languageEnum: 1
+      LanguageGenericType: 
+    Duration: 3
+  - NodeGuid: e535b3c3-f0ac-48ef-8362-2aef36034aa6
+    Position: {x: 1379, y: 0}
+    DialogueNodePorts: []
+    AudioClips:
+    - languageEnum: 0
+      LanguageGenericType: {fileID: 0}
+    - languageEnum: 1
+      LanguageGenericType: {fileID: 0}
+    Character: {fileID: 11400000, guid: 48c778c40de057e42b185bc6ad258af2, type: 2}
+    AvatarPos: 0
+    AvatarType: 0
+    TextType:
+    - languageEnum: 0
+      LanguageGenericType: Great job!
+    - languageEnum: 1
+      LanguageGenericType: 
+    Duration: 2
+  - NodeGuid: 235843a5-37bb-44e6-9685-cb07b81841e6
+    Position: {x: 1668, y: 0}
+    DialogueNodePorts: []
+    AudioClips:
+    - languageEnum: 0
+      LanguageGenericType: {fileID: 0}
+    - languageEnum: 1
+      LanguageGenericType: {fileID: 0}
+    Character: {fileID: 11400000, guid: a786ffa18a9ec9c48a946373063d04eb, type: 2}
+    AvatarPos: 0
+    AvatarType: 0
+    TextType:
+    - languageEnum: 0
+      LanguageGenericType: ...
+    - languageEnum: 1
+      LanguageGenericType: 
+    Duration: 1
+  - NodeGuid: 22c63528-561c-42db-89ba-bc85782bd3bd
+    Position: {x: 1943, y: 0}
+    DialogueNodePorts: []
+    AudioClips:
+    - languageEnum: 0
+      LanguageGenericType: {fileID: 0}
+    - languageEnum: 1
+      LanguageGenericType: {fileID: 0}
+    Character: {fileID: 11400000, guid: a786ffa18a9ec9c48a946373063d04eb, type: 2}
+    AvatarPos: 0
+    AvatarType: 0
+    TextType:
+    - languageEnum: 0
+      LanguageGenericType: Captain, can you hear me? What the hell is going on here!
+        It's not a storm, it's some kind of hell!
+    - languageEnum: 1
+      LanguageGenericType: 
+    Duration: 7
+  - NodeGuid: 7cc7509b-befd-43a1-b312-17846650ea52
+    Position: {x: 2225, y: 0}
+    DialogueNodePorts: []
+    AudioClips:
+    - languageEnum: 0
+      LanguageGenericType: {fileID: 0}
+    - languageEnum: 1
+      LanguageGenericType: {fileID: 0}
+    Character: {fileID: 11400000, guid: a786ffa18a9ec9c48a946373063d04eb, type: 2}
+    AvatarPos: 0
+    AvatarType: 0
+    TextType:
+    - languageEnum: 0
+      LanguageGenericType: The wind blows away everything in its path, the sand hits
+        the hull like bullets!
+    - languageEnum: 1
+      LanguageGenericType: 
+    Duration: 5
+  - NodeGuid: f0a2a77b-919b-4488-98aa-8babda06ffed
+    Position: {x: 2517, y: 0}
+    DialogueNodePorts: []
+    AudioClips:
+    - languageEnum: 0
+      LanguageGenericType: {fileID: 0}
+    - languageEnum: 1
+      LanguageGenericType: {fileID: 0}
+    Character: {fileID: 11400000, guid: a786ffa18a9ec9c48a946373063d04eb, type: 2}
+    AvatarPos: 0
+    AvatarType: 0
+    TextType:
+    - languageEnum: 0
+      LanguageGenericType: And where is this Rykov of yours? He swore that the weather
+        here was 'perfect for research
+    - languageEnum: 1
+      LanguageGenericType: 
+    Duration: 6
+  - NodeGuid: 26a45f88-9218-471d-b553-2463f14915cb
+    Position: {x: 2808, y: 0}
+    DialogueNodePorts: []
+    AudioClips:
+    - languageEnum: 0
+      LanguageGenericType: {fileID: 0}
+    - languageEnum: 1
+      LanguageGenericType: {fileID: 0}
+    Character: {fileID: 11400000, guid: 48c778c40de057e42b185bc6ad258af2, type: 2}
+    AvatarPos: 0
+    AvatarType: 0
+    TextType:
+    - languageEnum: 0
+      LanguageGenericType: Lex, calm down. You know what exo-meteorology is. This
+        is not science, this is fortune-telling on coffee grounds
+    - languageEnum: 1
+      LanguageGenericType: 
+    Duration: 7
+  - NodeGuid: afb449ec-1dc9-445e-b17b-55df2c85443a
+    Position: {x: 3088, y: 0}
+    DialogueNodePorts: []
+    AudioClips:
+    - languageEnum: 0
+      LanguageGenericType: {fileID: 0}
+    - languageEnum: 1
+      LanguageGenericType: {fileID: 0}
+    Character: {fileID: 11400000, guid: 48c778c40de057e42b185bc6ad258af2, type: 2}
+    AvatarPos: 0
+    AvatarType: 0
+    TextType:
+    - languageEnum: 0
+      LanguageGenericType: Listen, Lex, the storm is temporary. Wait it out
+    - languageEnum: 1
+      LanguageGenericType: 
+    Duration: 3
+  - NodeGuid: 9a690878-c470-42ee-aa30-5eb72c84bcd4
+    Position: {x: 3395, y: 0}
+    DialogueNodePorts: []
+    AudioClips:
+    - languageEnum: 0
+      LanguageGenericType: {fileID: 0}
+    - languageEnum: 1
+      LanguageGenericType: {fileID: 0}
+    Character: {fileID: 11400000, guid: 48c778c40de057e42b185bc6ad258af2, type: 2}
+    AvatarPos: 0
+    AvatarType: 0
+    TextType:
+    - languageEnum: 0
+      LanguageGenericType: Stay in the capsule, check the systems, try to fix what
+        you can. We're monitoring the situation here on the ship, too
+    - languageEnum: 1
+      LanguageGenericType: 
+    Duration: 7
+  - NodeGuid: a5b2507f-0adb-4f81-8c05-84646039f22c
+    Position: {x: 3659, y: 0}
+    DialogueNodePorts: []
+    AudioClips:
+    - languageEnum: 0
+      LanguageGenericType: {fileID: 0}
+    - languageEnum: 1
+      LanguageGenericType: {fileID: 0}
+    Character: {fileID: 11400000, guid: 48c778c40de057e42b185bc6ad258af2, type: 2}
+    AvatarPos: 0
+    AvatarType: 0
+    TextType:
+    - languageEnum: 0
+      LanguageGenericType: As soon as the storm subsides, we will help you. The main
+        thing is not to panic
+    - languageEnum: 1
+      LanguageGenericType: 
+    Duration: 6
+  - NodeGuid: 87592337-e438-4abd-b34e-4a56e0015733
+    Position: {x: 3930, y: 0}
+    DialogueNodePorts: []
+    AudioClips:
+    - languageEnum: 0
+      LanguageGenericType: {fileID: 0}
+    - languageEnum: 1
+      LanguageGenericType: {fileID: 0}
+    Character: {fileID: 11400000, guid: a786ffa18a9ec9c48a946373063d04eb, type: 2}
+    AvatarPos: 0
+    AvatarType: 0
+    TextType:
+    - languageEnum: 0
+      LanguageGenericType: Okay, I get you. End of communication
+    - languageEnum: 1
+      LanguageGenericType: 
+    Duration: 3
+  EndNodeDatas:
+  - NodeGuid: 789b2053-bab4-4e8e-9278-cbba6536737b
+    Position: {x: 4219, y: 0}
+    EndNodeType: 0
+  StartNodeDatas:
+  - NodeGuid: 5f26ad65-61df-4b7b-9d49-6b73a862c83d
+    Position: {x: -391, y: 0}
+    startID: 
+  TimerChoiceNodeDatas: []
+  EventNodeDatas: []
+  RandomNodeDatas: []
+  CommandNodeDatas: []
+  IFNodeDatas: []

@@ -38,11 +38,6 @@ public class Player : MonoBehaviour
 
     private void GameInput_OnInteractAction(object sender, EventArgs e)
     {
-        if(selectedSpaceCapsule == null)
-        {
-            Debug.Log("Nothing to interact");
-        }
-
         if (selectedSpaceCapsule != null && selectedSpaceCapsule.isPlayerInTheSpaceCapsule == false)
         {
             selectedSpaceCapsule.EnterSpaceCapsule();
@@ -134,7 +129,10 @@ public class Player : MonoBehaviour
         isWalking = moveDir != Vector3.zero;
 
         float rotateSpeed = 5f;
-        transform.forward = Vector3.Slerp(transform.forward, moveDir, Time.deltaTime * rotateSpeed);
+        if (moveDir != Vector3.zero)
+        {
+            transform.forward = Vector3.Slerp(transform.forward, moveDir, Time.deltaTime * rotateSpeed);
+        }
     }
     public bool IsWalking()
     {
